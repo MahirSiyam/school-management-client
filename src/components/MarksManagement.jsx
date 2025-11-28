@@ -22,7 +22,7 @@ const MarksManagement = () => {
     semester: "",
   });
 
-  const API_URL = "http://localhost:5000/api";
+  const API_URL = "https://school-management-server-beta.vercel.app/api";
   const MARKS_PER_PAGE = 15;
 
   // Memoized data fetching functions

@@ -21,7 +21,7 @@ const StudentManagement = () => {
     date_of_birth: "",
   });
 
-  const API_URL = "http://localhost:5000/api";
+  const API_URL = "https://school-management-server-beta.vercel.app/api";
   const STUDENTS_PER_PAGE = 15;
 
   // Use useCallback to memoize the function and avoid dependency issues
